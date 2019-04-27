@@ -42,12 +42,12 @@ body {
   }
   
   h1 {
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 20px 10px;
     margin: 0;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 28px;
-    text-align: left;
+    t
     font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
@@ -57,12 +57,13 @@ body {
     width: 30%;
     height: 100%;
     float: left;
+    display: inline-block;
+    text-align: center;
   }
 
   .about-me-header {
     color: #4aaaa5;
     background-color: #ffff;
-    margin-top: 10%;
   }
 
   .contact-header {
@@ -79,7 +80,8 @@ body {
   }
   
   a {
-    
+    color: #777777;
+    text-decoration: none;
   }
 
   p {
@@ -105,37 +107,6 @@ body {
     margin-top: 10%;
   }
 
-
-  /* #left { */
-    /* background-color: #666; */
-    /* float: left; */
-    /* color: white;  */
-    /* width: 33.33%; */
-    /* padding 20px; */
-  /* } */
-
-  /* #middle { */
-    /* background-color: #666; */
-    /* float: left; */
-    /* color: white;  */
-    /* width: 33.33%; */
-    /* padding 20px */
-  /* } */
-
-  /* #right { */
-    /* background-color: #666; */
-    /* float: left; */
-    /* color: white;  */
-    /* width: 33.33%; */
-    /* padding 20px; */
-  /* } */
-
-  /* #full { */
-    /* background-color: #eee; */
-    /* overflow: auto;  */
-    /* width: 100%; */
-    /* padding 20px; */
-  /* } */
   
   #main-bio,
   #contact-info,
